@@ -26,7 +26,7 @@ body{
     background-color: #fff;
     color: #222;
     background: url(../img/baner.png) no-repeat  center;
-    background-size: cover;
+    background-size:cover;
     font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -147,9 +147,39 @@ img{
     color: #01467b;
 }
 
-@media only screen and (max-width : 992px) {
-    body{
-        background: url(../img/baner.png) no-repeat left/cover;
-        background-size: 50%;
+@media only screen and (max-width : 920px) {
+   
+    .header{
+        display: none;
     }
+    .site-hiro{
+        display: none;
+    }
+   
+}
+
+@media only screen and (max-width : 720px) {
+    .header{
+        display: none;
+    }
+    .site-hiro{
+        display: none;
+    }
+    body{
+        background-size: auto;
+    }
+   
+}
+
+@media only screen and (min-width : 920px) {
+    .site-mobil{
+        display: none;
+    }
+    
+   
+}
+
+@media only screen and (min-width : 720px) {
+    
+   
 }
