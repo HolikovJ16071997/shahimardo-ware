@@ -54,8 +54,8 @@ img{
 
 /* header */
 
-.header {
-}
+/* .header {
+} */
 .site-header {
     display: flex;
     align-items: center;
@@ -64,8 +64,8 @@ img{
 .header-list {
     margin-right: 60px;
 }
-.header-item {
-}
+/* .header-item {
+} */
 .header-link {
     font-size: 30px;
     font-weight: bold;
@@ -95,13 +95,15 @@ img{
 
 .hiro-infor_tebel {
     width: 260px;
+    height: 320px;
    border: 1.5px solid  #01467b;;
    border-radius: 3px ;
    color:  #01467b;;
 }
 .info-text {
     text-align: center;
-    border-bottom: 1px solid  #01467b;;
+    border-bottom: 1px solid  #01467b;
+    
 }
 .info-tabel {
     display: flex;
@@ -112,7 +114,7 @@ img{
     padding-right: 10px;
     border-right:1px solid  #01467b; ;
 }
-.tabel1-list {
+/* .tabel1-list {
 }
 .tabel1-item {
 }
@@ -126,7 +128,7 @@ img{
 .tabel2-item {
 }
 .tabel2-t {
-}
+} */
 
 .bloc
 {  display: flex;   
@@ -147,6 +149,39 @@ img{
     color: #01467b;
 }
 
+
+/* 
+.site-mobil {
+} */
+.site-mob-info1 {
+    display: flex;
+    
+}
+/* .site-mobil_logo {
+}
+.site-mob-img {
+}
+.text-headerM {
+} */
+.site-textHM {
+width: 350px;
+padding-top: 18px;
+font-size: 25px;
+text-align:left;
+font-weight: 700;
+color: #184c73;
+}
+.header-listM {
+    text-align:left;
+    font-weight: 700;
+    color: #043d69;
+    font-size: 25px;
+}
+.header-itemM {
+    padding: 0;
+}
+/* .header-linkM {
+} */
 @media only screen and (max-width : 920px) {
    
     .header{
@@ -168,6 +203,7 @@ img{
     body{
         background-size: auto;
     }
+    
    
 }
 
